@@ -7,11 +7,7 @@ Motivation:
     The entry of contract information includes some redundant processes this web app intends to automate into a single process.
 
 Build Structure:
-    Using Node.js, the web app is built around the web server chosen to be AWS Lambda. From this server, there will be a script that calls Monday.com to seek (every 15 minutes) if data is updated from Monday.com. If it is, then it returns this data and sends it to Hubspot. 
-
-Next steps:
-    SDK usage from server to Monday.com and ask if updated
-    AWS Send database/cache stored collections
+    Using Node.js, the web app is built around the web server chosen to be AWS Lambda. From this controller, there will be a script that calls Monday.com to seek (every 15 minutes) if data is updated from Monday.com. If it is, then it returns this data and sends it to Hubspot. 
 
 API References:
     Monday: https://api.developer.monday.com/docs
